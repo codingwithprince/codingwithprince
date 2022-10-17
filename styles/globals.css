@@ -10,3 +10,27 @@
     /* font-family: 'Lobster', cursive; */
     font-family: 'Pacifico', cursive;
 }
+
+/* skill bar */
+.skillbar{
+    background: transparent !important;
+    margin-bottom: 15px !important;
+}
+.skillbar-title span {
+    background: transparent !important;
+}
+.skillbar-percent {
+    right: 0px !important;
+    font-size: 11px !important;
+    color: gray !important;
+}
+.skillbar-title span {
+    padding: 0 !important;
+    color: #444 !important;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    /* background: #f97316 !important; */
+    background: #444 !important;
+
+}
