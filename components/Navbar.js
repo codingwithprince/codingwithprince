@@ -11,21 +11,19 @@ const nav = [
     link: "/projects"
   },
   {
-    title: "contact",
+    title: "resume",
     link: "/"
   }
 ];
-const Navbar = () => {
-    const [activeNavItem, setActiveNavItem] = useState('about')
+const Navbar = ({activeNavItem, setActiveNavItem}) => {
+  // const [activeNavItem, setActiveNavItem] = useState('about')
   return (
     <nav className="flex justify-between items-center">
       <p className="uppercase text-2xl font-bold text-zinc-600 border-b-4 border-orange-500">{activeNavItem}</p>
       <ul className="flex gap-4">
         {nav.map((ni) => (
           <li onClick={()=> setActiveNavItem(ni.title)} key={ni.title} className={`${activeNavItem == ni.title ? "hidden" : "block"} uppercase text-sm md:text-lg font-bold text-zinc-500`}>
-            <Link href={`${ni.link}`}>
-                <a className="hover:text-zinc-700 ease-in-out duration-300">{ni.title}</a>
-            </Link>
+              <a className="hover:text-zinc-700 ease-in-out duration-300">{ni.title}</a>
           </li>
         ))}
       </ul>
