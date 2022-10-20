@@ -18,7 +18,7 @@ const nav = [
 const Navbar = ({activeNavItem, setActiveNavItem}) => {
   // const [activeNavItem, setActiveNavItem] = useState('about')
   return (
-    <nav className="flex justify-between items-center">
+    <nav className="flex justify-between items-center cursor-pointer">
       <p className="uppercase text-2xl font-bold text-zinc-600 border-b-4 border-orange-500">{activeNavItem}</p>
       <ul className="flex gap-4">
         {nav.map((ni) => (

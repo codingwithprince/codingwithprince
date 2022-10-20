@@ -8,7 +8,7 @@ import Resume from "../components/Resume";
 
 export default function Home() {
   const router = useRouter()
-  const [activeNavItem, setActiveNavItem] = useState('projects')
+  const [activeNavItem, setActiveNavItem] = useState('about')
   return (
     <div>
       <Head>

@@ -118,7 +118,7 @@ const Sidebar = () => {
         <BsLinkedin className="w-8 h-8 text-zinc-700" />
       </div>
       <div className="resume-button">
-        <button className="mx-auto w-full hover:bg-gray-200 ease-in-out duration-300 bg-gray-300 rounded-full py-3 font-bold text-zinc-600">
+        <button className="mx-auto w-full hover:bg-gray-300 ease-in-out duration-300 bg-gray-200 rounded-full py-3 font-bold text-zinc-600">
           Download CV
         </button>
       </div>
