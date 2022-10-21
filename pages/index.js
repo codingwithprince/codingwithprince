@@ -18,9 +18,11 @@ export default function Home() {
       </Head>
       <main className="p-5">
         <Navbar activeNavItem={activeNavItem} setActiveNavItem={setActiveNavItem}  />
+        <div className="h-[80vh]">
         {
           activeNavItem == "about" && <About />  || activeNavItem == "projects" && <Projects /> || activeNavItem == "resume" && <Resume /> 
         }
+        </div>
       </main>
     </div>
   );

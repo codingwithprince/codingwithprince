@@ -29,8 +29,8 @@ const serviceInfo = [
 
 const About = () => {
   return (
-    <section className="about mt-10">
-      <p className="text-lg font-semibold text-zinc-600">
+    <div className="about mt-10 flex flex-col gap-5 h-full">
+      <p className="text-lg font-semibold text-zinc-600 text-justify">
         I&apos;m a Full Stack Web Developer with 3 years of experience. Mostly
         specialize in <span className="font-bold">Next</span>,{" "}
         <span className="font-bold">React</span>,{" "}
@@ -43,10 +43,11 @@ const About = () => {
       </p>
       <div style={{
         marginLeft:"-2rem",
-        marginRight:"-2rem"
-      }} className="service-section lg:mt-20 mt-10 bg-zinc-200 py-5 lg:py-10 px-10">
+        marginRight:"-2rem",
+        marginBottom: "-2.5rem"
+      }} className="service-section rounded-xl bg-zinc-100 grow lg:mt-20 mt-10 py-5 lg:py-10 px-10">
         <h2 className="font-bold text-xl text-zinc-600 uppercase text-center">Services</h2>
-        <div className="services-cards grid lg:grid-cols-2 grid-cols-1 gap-6 py-10">
+        <div className="services-cards grid lg:grid-cols-2 grid-cols-1 gap-6 py-10 lg:mt-20">
           {
             serviceInfo.map((sItem, index)=> (
                 <ServiceCard key={index} data={sItem} />
@@ -55,7 +56,7 @@ const About = () => {
           
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
