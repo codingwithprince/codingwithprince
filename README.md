@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Expo, Backend ( Express Js )**
 
-- 📝 I regularly write articles on [[https://www.linkedin.com/in/codingwithprince/](https://www.linkedin.com/in/codingwithprince/)](https://www.linkedin.com/in/coidngwithprince/) 
+- 📝 I regularly write articles on [[https://www.linkedin.com/in/codingwithprince/](https://www.linkedin.com/in/codingwithprince/)]
 
 - 💬 Ask me about **React Native, Expo, MongoDB, Express**
 
