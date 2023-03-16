@@ -1,5 +1,5 @@
 
-<h1 align="center">Hi 👋, I'm Prince Ahmed</h1>
+<h1 align="center">Prince Ahmed</h1>
 <h3 align="center">Expert React Native & MERN Stack Developer - Creating Powerful Web & Mobile Apps for Your Business Growth.</h3>
 
 
